@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe Game Mode Selection</title>
+</head>
+<body>
+    <div class="mode-selection">
+        <h2>Select Game Mode</h2>
+        <form id="modeForm">
+            <label for="mode">Choose a mode:</label>
+            <select id="mode" name="mode">
+                <option value="single">Single Player</option>
+                <option value="two">Two Players</option>
+            </select>
+            <button type="button" onclick="startGame()">OK</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
